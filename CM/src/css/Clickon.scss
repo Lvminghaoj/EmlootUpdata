@@ -1,0 +1,76 @@
+.axb {
+    width: 100%;
+    height: 98px;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    .left {
+        width: 35%;
+        height: 100%;
+        float: left;
+        img {
+            width: 48px;
+            height: 46px;
+            display: block;
+            padding-left: 52px;
+            padding-top: 13px;
+        }
+        .Fonts {
+            margin-right: 110px;
+            font-size: 22px;
+            color: rgb(43, 170, 207)
+        }
+        .Font {
+            margin-right: 110px;
+            font-size: 22px;
+            color: rgb(153, 153, 153)
+        }
+    }
+    .center {
+        width: 33.33%;
+        height: 100%;
+        float: left;
+        img {
+            width: 45px;
+            height: 45px;
+            display: block;
+            padding-left: 100px;
+            padding-top: 13px;
+        }
+        .Fonts {
+            font-size: 22px;
+            color: rgb(43, 170, 207)
+        }
+        .Font {
+            font-size: 22px;
+            color: rgb(153, 153, 153)
+        }
+    }
+    .right {
+        width: 31%;
+        height: 100%;
+        float: left;
+        position: relative;
+        img {
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            top: 13px;
+            right: 52px;
+        }
+        .Fonts {
+            position: absolute;
+            bottom: 2px;
+            right: 49px;
+            font-size: 22px;
+            color: rgb(43, 170, 207)
+        }
+        .Font {
+            position: absolute;
+            bottom: 2px;
+            right: 49px;
+            font-size: 22px;
+            color: rgb(153, 153, 153)
+        }
+    }
+}

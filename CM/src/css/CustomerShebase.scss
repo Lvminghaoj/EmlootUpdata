@@ -1,0 +1,100 @@
+.banner {
+    width: 100%;
+    height: 413px;
+    background: rgb(239, 239, 239);
+    position: relative;
+    .BannerImg {
+        width: 691px;
+        height: 330px;
+        background: url(../img/dianfang.png) repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+}
+
+.BiaoTing {
+    width: 100%;
+    height: 80px;
+    .BiaoTleft {
+        width: 160px;
+        height: 100%;
+        line-height: 80px;
+        color: rgb(153, 153, 153);
+        font-size: 30px;
+    }
+}
+
+select {
+    border: none;
+    color: #8fd6e3;
+    font-size: 28px;
+    width: 330px;
+    margin-top: 2px;
+    height: 75px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    /*取消默认箭头结束*/
+}
+
+.SELct {
+    width: 470px !important;
+}
+
+.box {
+    position: relative;
+    .beijingtu {
+        width: 40px;
+        height: 40px;
+        background: url(../img/修改.png) repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        right: 0;
+        top: 440px;
+    }
+    .Beijingtu {
+        width: 60px;
+        height: 60px;
+        background: url(../img/确定.png) repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        right: 0;
+        bottom: 30px;
+        z-index: 9999;
+    }
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    tr {
+        width: 100%;
+        height: 80px;
+        .left {
+            width: 30%;
+            background: url(../img/背景.png) repeat;
+            background-size: 100% 100%;
+            border-top: 1px solid #ccc;
+            color: rgb(51, 51, 51);
+            font-size: 28px;
+        }
+        .right {
+            width: 70%;
+            border-top: 1px solid #ccc;
+            color: #8fd6e3;
+            font-size: 28px;
+            input {
+                height: 50px;
+                border: none;
+            }
+        }
+    }
+}
+
+.KongbaiT {
+    width: 100%;
+    height: 50px;
+    background: rgb(239, 239, 239);
+}

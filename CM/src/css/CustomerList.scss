@@ -1,0 +1,141 @@
+.banner {
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: relative;
+    .bannerLeft {
+        width: 15%;
+        height: 100%;
+        background: pink;
+        position: absolute;
+    }
+    .bannerRight {
+        width: 100%;
+        height: 100%;
+        color: rgb(51, 51, 51);
+        font-size: 40px;
+        line-height: 80px;
+        text-align: center;
+    }
+}
+
+.addlist {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 26px;
+    cursor: pointer;
+    span {
+        cursor: pointer;
+        color: #999;
+        font-size: 26px;
+    }
+}
+
+.ULlis {
+    width: 100%;
+    height: 100%;
+    li {
+        width: 690px;
+        height: 273px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        box-shadow: white 2px 2px 2px;
+        margin-top: 30px;
+        margin-left: 30px;
+        background: white;
+        position: relative;
+        .img {
+            width: 190px;
+            height: 222px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: url(../img/dianfang.png) repeat;
+            background-size: 100% 100%;
+        }
+        .Filer {
+            width: 190px;
+            height: 222px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: url(../img/banner1.png) repeat;
+            background-size: 100% 100%;
+        }
+        p {
+            color: rgb(51, 51, 51);
+            font-size: 32px;
+            position: absolute;
+            left: 250px;
+            font-weight: 600;
+            top: 30px;
+        }
+        .Icons {
+            width: 20px;
+            height: 25px;
+            background: url(../img/位置.png) repeat;
+            background-size: 100% 100%;
+            position: absolute;
+            top: 92px;
+            left: 250px;
+        }
+        span {
+            width: 300px;
+            position: absolute;
+            top: 90px;
+            left: 280px;
+            color: rgb(153, 153, 153);
+            font-size: 24px;
+            text-align: left;
+        }
+        .BorderLeft {
+            width: 113px;
+            height: 1.2rem;
+            border: 2px solid rgb(238, 160, 49);
+            border-radius: 20px;
+            color: rgb(238, 160, 49);
+            font-size: 20px;
+            position: absolute;
+            top: 210px;
+            left: 280px;
+            line-height: 1.2rem;
+        }
+        .BorderRight {
+            width: 120px;
+            height: 1.2rem;
+            border: 2px solid rgb(238, 160, 49);
+            border-radius: 20px;
+            color: rgb(238, 160, 49);
+            font-size: 20px;
+            position: absolute;
+            top: 210px;
+            left: 420px;
+            line-height: 1.2rem;
+        }
+        .BorderRights {
+            width: 120px;
+            height: 1.2rem;
+            border: 2px solid rgb(238, 160, 49);
+            border-radius: 20px;
+            color: rgb(238, 160, 49);
+            font-size: 20px;
+            position: absolute;
+            top: 210px;
+            right: 20px;
+            line-height: 1.2rem;
+        }
+        a {
+            position: absolute;
+            bottom: 25px;
+            right: 18px;
+            font-size: 20px;
+            color: rgb(221, 193, 61);
+        }
+    }
+}

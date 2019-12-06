@@ -1,0 +1,73 @@
+.Box {
+    position: relative;
+    .banner {
+        width: 100%;
+        height: 460px;
+        background: url(../img/banner3.png) repeat;
+        background-size: 100% 100%;
+    }
+    .Tou {
+        width: 160px;
+        height: 160px;
+        border: 2px solid #ccc;
+        border-radius: 50%;
+        position: absolute;
+        top: 340px;
+        left: 39%;
+        z-index: 9999;
+        img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+        }
+    }
+    .User {
+        width: 100%;
+        height: 345px;
+        background: white;
+        position: absolute;
+        top: 460px;
+        p {
+            color: rgb(51, 51, 51);
+            font-size: 38px;
+            margin-top: 62px;
+            font-weight: 600;
+            height: 38px;
+        }
+        .spans {
+            color: rgb(102, 102, 102);
+            font-size: 24px;
+            position: relative;
+            width: 100%;
+            .Icons {
+                width: 27px;
+                height: 27px;
+                margin-right: 100px;
+                position: absolute;
+                background: url(../img/修改.png) repeat;
+                background-size: 100% 100%;
+                top: 3px;
+                right: 10%;
+            }
+        }
+        ul {
+            width: 100%;
+            height: 170px;
+            li {
+                width: 33.33%;
+                height: 100%;
+                float: left;
+                span {
+                    color: rgb(102, 102, 102);
+                    font-size: 22px;
+                    display: block;
+                    margin-top: 30px;
+                }
+                p {
+                    font-size: 34px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

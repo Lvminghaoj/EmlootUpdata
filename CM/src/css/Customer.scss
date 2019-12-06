@@ -1,0 +1,499 @@
+            .HonKonTiao {
+                width: 100%;
+                height: 30px;
+                background: rgb(239, 239, 239);
+                clear: both
+            }
+            
+            .formData {
+                width: 720px;
+                height: 80px;
+                border-bottom: 1px solid #efefef;
+                margin-left: 30px;
+                position: relative;
+                .left {
+                    color: rgb(153, 153, 153);
+                    font-size: 32px;
+                    width: 192px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .right {
+                    color: rgb(153, 153, 153);
+                    font-size: 32px;
+                    width: 170px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .concents1 {
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    width: 70px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .concent1 {
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    width: 80px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .concent2 {
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    width: 120px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .concent10 {
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    width: 150px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .concent11 {
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    width: 110px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .concent6 {
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    width: 169px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .concent20 {
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    width: 179px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .concents2 {
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    width: 152px;
+                    line-height: 80px;
+                    float: left;
+                }
+                .concent3 {
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    width: 130px;
+                    line-height: 80px;
+                    float: left;
+                }
+                input {
+                    width: 492px;
+                    height: 72px;
+                    float: left;
+                    margin-left: 60px;
+                    border: none;
+                    font-size: 26px;
+                    color: rgb(143, 214, 227);
+                }
+                span {
+                    font-size: 26px;
+                    color: rgb(143, 214, 227);
+                    position: absolute;
+                    top: 23px;
+                    right: 20px;
+                    z-index: 9999;
+                }
+            }
+            
+            .name {
+                margin-left: 30px !important;
+            }
+            
+            .User2::-webkit-input-placeholder,
+            textarea::-webkit-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 360px;
+            }
+            
+            .User2:-moz-placeholder,
+            textarea:-moz-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 360px;
+            }
+            
+            .User2::-moz-placeholder,
+            textarea::-moz-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 360px;
+            }
+            
+            .User2::-ms-input-placeholder,
+            textarea:-ms-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 360px;
+            }
+            
+            .User::-webkit-input-placeholder,
+            textarea::-webkit-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 400px;
+            }
+            
+            .User:-moz-placeholder,
+            textarea:-moz-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 400px;
+            }
+            
+            .User::-moz-placeholder,
+            textarea::-moz-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 400px;
+            }
+            
+            .User::-ms-input-placeholder,
+            textarea:-ms-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 400px;
+            }
+            
+            .enen::-webkit-input-placeholder,
+            textarea::-webkit-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 90px;
+            }
+            
+            .enen:-moz-placeholder,
+            textarea:-moz-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 90px;
+            }
+            
+            .enen::-moz-placeholder,
+            textarea::-moz-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 90px;
+            }
+            
+            .enen::-ms-input-placeholder,
+            textarea:-ms-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 90px;
+            }
+            
+            .enen1 {
+                margin-left: 40px !important;
+            }
+            
+            .formData1 {
+                height: 142px !important;
+            }
+            
+            .enen2 {
+                height: 110px !important;
+                border: none;
+                width: 480px;
+                margin-top: 13px;
+                font-size: 26px;
+                color: rgb(143, 214, 227);
+            }
+            
+            .Name {
+                margin-left: 120px !important;
+            }
+            
+            .NaInput::-webkit-input-placeholder,
+            textarea::-webkit-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 80px;
+            }
+            
+            .NaInput:-moz-placeholder,
+            textarea:-moz-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 140px;
+            }
+            
+            .NaInput::-moz-placeholder,
+            textarea::-moz-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 140px;
+            }
+            
+            .NaInput::-ms-input-placeholder,
+            textarea:-ms-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 140px
+            }
+            
+            .Bitn {
+                width: 100%;
+                height: 60px;
+                background: white;
+                font-size: 30px;
+                .Esc {
+                    float: left;
+                    background: white;
+                    border: 1px solid white;
+                    font-size: 28px;
+                }
+                .Yes {
+                    float: right;
+                    background: white;
+                    border: 1px solid white;
+                    font-size: 28px;
+                }
+            }
+            
+            .Kongbai {
+                width: 100%;
+                height: 10px;
+                background: rgb(239, 239, 239);
+            }
+            
+            .Kongbai2 {
+                width: 100%;
+                height: 200px;
+                background: rgb(239, 239, 239);
+            }
+            
+            .Kongbais {
+                width: 100%;
+                height: 150px;
+                background: rgb(239, 239, 239);
+                clear: both;
+            }
+            
+            .kongFree {
+                width: 100%;
+                height: 30px;
+                background: rgb(239, 239, 239);
+                clear: both;
+            }
+            
+            .DianFangs {
+                width: 720px;
+                margin-left: 30px;
+                height: 408px;
+                border-bottom: 1px solid #efefef;
+                .DianFang {
+                    width: 170px;
+                    height: 100%;
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    float: left;
+                    line-height: 400px;
+                }
+                .DianFangright {
+                    width: 550px;
+                    height: 100%;
+                    float: left;
+                    .DianFangrightDiv {
+                        width: 510px;
+                        height: 378px;
+                        margin-left: 40px;
+                        .DianFanglist {
+                            width: 100%;
+                            height: 100%;
+                            margin-top: 10px;
+                            .DfList {
+                                width: 220px;
+                                height: 82px;
+                                float: left;
+                                margin-left: 20px;
+                                margin-top: 10px;
+                                span {
+                                    color: rgb(102, 102, 102);
+                                    font-size: 20px;
+                                }
+                                .Inputs {
+                                    width: 119px;
+                                    height: 39px;
+                                    font-size: 22px;
+                                    color: rgb(51, 51, 51);
+                                    border: 2px solid #efefef;
+                                    border-radius: 10px;
+                                    padding-left: 90px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .DianFangs2 {
+                width: 720px;
+                border-bottom: 1px solid #efefef;
+                margin-left: 30px;
+                height: 600px;
+                .DianFang {
+                    width: 170px;
+                    color: rgb(51, 51, 51);
+                    font-size: 26px;
+                    float: left;
+                    line-height: 600px;
+                }
+                .DianFangright {
+                    width: 550px;
+                    float: left;
+                    .DianFangrightDiv {
+                        width: 520px;
+                        margin-left: 40px;
+                        .DianFanglist {
+                            width: 100%;
+                            .DfList {
+                                width: 220px;
+                                height: 82px;
+                                float: left;
+                                margin-left: 10px;
+                                margin-top: 5px;
+                                margin-bottom: 15px;
+                                span {
+                                    color: rgb(102, 102, 102);
+                                    font-size: 20px;
+                                }
+                                .Inputs {
+                                    width: 119px;
+                                    height: 39px;
+                                    font-size: 22px;
+                                    color: rgb(51, 51, 51);
+                                    border: 2px solid #efefef;
+                                    border-radius: 10px;
+                                    padding-left: 90px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .top {
+                margin-top: 15px;
+            }
+            
+            .lefts {
+                margin-left: 0 !important;
+            }
+            
+            .MarUser {
+                padding-left: 40px !important;
+            }
+            
+            .banner {
+                width: 100%;
+                height: 413px;
+                background: rgb(239, 239, 239);
+                position: relative;
+                .BannerImg {
+                    width: 691px;
+                    height: 330px;
+                    background: url(../img/dianfang.png) repeat;
+                    background-size: 100% 100%;
+                    position: absolute;
+                    top: 30px;
+                    left: 30px;
+                }
+            }
+            
+            .inputs {
+                width: 492px !important;
+                height: 72px;
+                float: left;
+                margin-left: 50px!important;
+                border: none;
+                font-size: 26px;
+                color: rgb(143, 214, 227);
+            }
+            
+            .ClickBtoom {
+                width: 100%;
+                height: 80px;
+                background: white;
+                position: absolute;
+                bottom: 98px;
+                border-bottom: 2px solid #ccc;
+                position: fixed;
+                border-top: 2px solid #ccc;
+                .ClickLeft {
+                    width: 520px;
+                    height: 100%;
+                    float: left;
+                    color: #999;
+                    line-height: 80px;
+                }
+                .ClickRight {
+                    width: 230px;
+                    height: 100%;
+                    float: left;
+                    background: url(../img/背景颜色.png) repeat;
+                    background-size: 100% 100%;
+                    line-height: 80px;
+                    color: white;
+                }
+            }
+            
+            .bottoms {
+                .Beijingtu {
+                    width: 60px;
+                    height: 60px;
+                    background: pink;
+                }
+            }
+            
+            .NaInputs::-webkit-input-placeholder,
+            textarea::-webkit-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 100px;
+            }
+            
+            .NaInputs2::-webkit-input-placeholder,
+            textarea::-webkit-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 120px;
+            }
+            
+            .NaInputs3::-webkit-input-placeholder,
+            textarea::-webkit-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 140px;
+            }
+            
+            .NaInputs4::-webkit-input-placeholder,
+            textarea::-webkit-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 140px;
+            }
+            
+            .NaInputs4 {
+                margin-left: 0 !important;
+            }
+            
+            .NaInputs5::-webkit-input-placeholder,
+            textarea::-webkit-input-placeholder {
+                color: rgb(143, 214, 227);
+                font-size: 26px;
+                padding-left: 130px;
+                margin-left: 0 !important;
+            }
